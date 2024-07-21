@@ -16,5 +16,4 @@ app.use("/api/auth", authRoute);
 
 app.listen(8800, () => {
   console.log("Server is running!");
-  console.log(process.env.CLIENT_URL);
 });
